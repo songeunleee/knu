@@ -1,6 +1,7 @@
 package com.example.knu.service;
 
 import com.example.knu.domain.blog.Article;
+import com.example.knu.domain.blog.Comment;
 import com.example.knu.repository.BlogRepository;
 import com.example.knu.web.dto.AddArticleRequestDto;
 import com.example.knu.web.dto.UpdateArticleRequestDto;
@@ -56,5 +57,8 @@ public class BlogService {
         // 동작 됨 -> jpa가 해주는 거
 
     }
+
+    // comment 등록
+
 
 }
